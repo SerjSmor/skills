@@ -1,0 +1,4 @@
+interface:
+  display_name: "DSPy"
+  short_description: "Run structured DSPy experiments"
+  default_prompt: "Use $dspy to set up or iterate on a DSPy experiment folder with the right optimizer, naming, and compile/eval cost tracking."
