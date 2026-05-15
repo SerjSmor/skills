@@ -1,0 +1,19 @@
+{
+  "name": "serjsmor-skills",
+  "version": "0.1.0",
+  "description": "Reusable Claude Code and Codex skills by Serj Smorodinsky.",
+  "author": {
+    "name": "Serj Smorodinsky",
+    "url": "https://mlarchitect.substack.com/"
+  },
+  "homepage": "https://github.com/SerjSmor/skills",
+  "repository": "https://github.com/SerjSmor/skills",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "claude-code",
+    "codex",
+    "dspy",
+    "agentic"
+  ]
+}

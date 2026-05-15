@@ -1,0 +1,9 @@
+{
+  "name": "serjsmor-skills",
+  "plugins": [
+    {
+      "name": "serjsmor-skills",
+      "source": "./"
+    }
+  ]
+}
