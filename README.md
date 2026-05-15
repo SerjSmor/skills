@@ -4,6 +4,15 @@ Local Codex-compatible skills.
 
 This repository collects reusable skills that were developed during real project work and then extracted into a cleaner standalone form.
 
+## About
+
+Created by Serj Smorodinsky.
+
+- Newsletter: https://mlarchitect.substack.com/
+- Source project: https://github.com/SerjSmor/agentic_atis
+
+![Serj beliefs](assets/serj-beliefs.png)
+
 ## Skills
 
 ### `dspy`
@@ -56,13 +65,15 @@ cp -R dspy ~/.codex/skills/
 
 ```text
 README.md
- dspy/
-   SKILL.md
-   agents/
-     openai.yaml
-   references/
-     optimizer-choice.md
-     compile-accounting.md
+assets/
+  serj-beliefs.png
+dspy/
+  SKILL.md
+  agents/
+    openai.yaml
+  references/
+    optimizer-choice.md
+    compile-accounting.md
 ```
 
 ## Notes
