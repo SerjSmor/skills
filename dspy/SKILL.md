@@ -7,7 +7,7 @@ description: Use when setting up, refactoring, or iterating on a DSPy experiment
 
 ## Overview
 
-Use this skill for DSPy experiment loops where Codex is expected to behave like an experiment engineer: clarify the task, choose an optimizer, structure the experiment folder, run bounded iterations, and keep metrics and accounting clean.
+Use this skill for DSPy experiment loops where your coding agent is expected to behave like an experiment engineer: clarify the task, choose an optimizer, structure the experiment folder, run bounded iterations, and keep metrics and accounting clean.
 
 Start with a short interview before changing code. Ask only the minimum needed to determine:
 
