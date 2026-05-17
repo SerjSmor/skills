@@ -1,0 +1,4 @@
+interface:
+  display_name: "Continuous Quality Audit"
+  short_description: "Audit model outputs for normality, drift, and anomalies"
+  default_prompt: "Use $continuous-quality-audit to set up or run a recurring output audit with a clear baseline, sampling policy, drift checks, optional LLM judging, and a storage destination for flagged outputs."

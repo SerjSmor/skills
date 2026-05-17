@@ -1,0 +1,4 @@
+interface:
+  display_name: "Active Learning"
+  short_description: "Run structured active learning loops"
+  default_prompt: "Use $active-learning to set up or iterate on an active learning workflow with clear data access, annotation, sampling, and evaluation decisions."

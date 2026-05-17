@@ -33,6 +33,34 @@ This skill was born out of the ATIS comparison work in:
 
 That project compared prompt-only agentic iteration, plain DSPy optimization, and agentic-on-DSPy workflows. The `dspy` skill captures the parts of that process that were reusable beyond that one repository.
 
+### `active-learning`
+
+A skill for running active learning loops on low-label predictive tasks.
+
+It helps with:
+- interviewing the user about data access and label availability
+- setting up a small seed set when labeled data is sparse
+- choosing a batch selection heuristic such as uncertainty sampling
+- using `Argilla` as the default annotation surface
+- incorporating strong LLMs as judges for weak evaluation or triage when appropriate
+- tracking iterations, annotation rounds, and evaluation cleanly
+
+This skill was created to capture the minimum durable decisions needed for active learning workflows: data access, annotation strategy, batch selection, evaluation, and stopping criteria.
+
+### `continuous-quality-audit`
+
+A skill for continuously auditing model outputs to verify that they remain normal, stable, and reviewable over time.
+
+It helps with:
+- interviewing the user about the model, output surface, and audit source
+- defining or constructing a baseline or reference distribution
+- running distribution, rule-based, sample-based, and drift-focused audits
+- using strong LLMs as judges for weak evaluation or triage when appropriate
+- saving flagged outputs to `Argilla` or a DB-backed destination
+- tracking sampling policy, drift signals, and anomaly counts cleanly
+
+This skill was created to capture the minimum durable decisions needed for recurring quality audits: what normal means, how to detect drift, how to sample outputs, how to review them, and where to save the results.
+
 ## Structure
 
 Each skill lives in its own folder and is self-contained:
@@ -53,12 +81,16 @@ Example:
 
 ```bash
 cp -R dspy /path/to/project/skills/
+cp -R active-learning /path/to/project/skills/
+cp -R continuous-quality-audit /path/to/project/skills/
 ```
 
 Or:
 
 ```bash
 cp -R dspy ~/.codex/skills/
+cp -R active-learning ~/.codex/skills/
+cp -R continuous-quality-audit ~/.codex/skills/
 ```
 
 ## Repository layout
@@ -67,6 +99,14 @@ cp -R dspy ~/.codex/skills/
 README.md
 assets/
   serj-beliefs.png
+active-learning/
+  SKILL.md
+  agents/
+    openai.yaml
+continuous-quality-audit/
+  SKILL.md
+  agents/
+    openai.yaml
 dspy/
   SKILL.md
   agents/

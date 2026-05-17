@@ -1,7 +1,7 @@
 {
   "name": "serjsmor-skills",
-  "version": "0.1.0",
-  "description": "Reusable Claude Code and Codex skills by Serj Smorodinsky.",
+  "version": "0.3.0",
+  "description": "Reusable Claude Code and Codex skills for DSPy experimentation, active learning, and continuous quality audit workflows.",
   "author": {
     "name": "Serj Smorodinsky",
     "url": "https://mlarchitect.substack.com/"
@@ -10,10 +10,16 @@
   "repository": "https://github.com/SerjSmor/skills",
   "license": "MIT",
   "keywords": [
-    "skills",
+    "active-learning",
+    "agentic",
+    "argilla",
     "claude-code",
     "codex",
+    "continuous-quality-audit",
+    "drift-detection",
     "dspy",
-    "agentic"
+    "llm-as-judge",
+    "quality-audit",
+    "skills"
   ]
 }
